@@ -1,7 +1,17 @@
+@font-face
+{
+	font-family: Helvetica;
+	src: url('../fonts/helvetica-normal.ttf') format('truetype');
+}
+
 body {
 	background-color:#fafafa;
 	padding:0;
 	margin: 0;
+	font-family: 'Helvetica', Arial, sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+
 }
 
 a, a:hover{
@@ -16,6 +26,7 @@ p{
 
 #container{
 	width: 100%;
+	font-family: 'Helvetica', Arial, sans-serif;
 }
 
 .header_overall{
@@ -44,7 +55,7 @@ p{
 	height: 28px;
 	border: 1px solid #e7e7e7;
 	border-radius: 3px;
-	
+
 
 }
 .search input{
@@ -60,7 +71,7 @@ p{
 	width: 200px;
 	float: right;
 	margin-left: -20px!important;
-	
+
 }
 
 a.iconImg{
@@ -74,7 +85,7 @@ a.iconImg{
 .content_cen{
 	width: 600px;
 	margin: 60px auto;
-	
+
 }
 
 .article_head{
