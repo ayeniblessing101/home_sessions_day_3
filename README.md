@@ -6,6 +6,8 @@ TDD tool: Jasmine<br>
 Author: Ayeni Blessing<br>
 Version: 0.0.1
 
+##A Simple User Interface using HTML and CSS a clone of Instagram Web Application
+
 ###This exercise write tests and codes to pass the test. (Tests are written with Jasmine)
 
 * Write a function called *words*  that takes in a string argument and counts the occurrences of each word in the string.
