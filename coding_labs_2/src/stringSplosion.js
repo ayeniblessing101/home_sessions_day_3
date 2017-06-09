@@ -6,13 +6,17 @@ class StringSplosion{
 
   manipulate(){
     let exploded = "";
-    let strExplode = this.string.split(" ");
+    let sss = ""
+    
+    let strExplode = (this.string).split("");
     for(let i=0; i<strExplode.length; i++){
-      for(let j=0; j<i; j++){
-        //return j;
+        
+      for(let j=0; j<=i; j++){
+        exploded+=this.string[j];
       }
-      //return exploded;
+      
     }
+    return exploded;
   }
 }
-  
+ 
